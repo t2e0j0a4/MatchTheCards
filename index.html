@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Match The Cards | Game</title>
+</head>
+<body>
+    
+    <div class="page">
+        <h1 class="heading">Match The Cards</h1>
+        <div class="game" id="game">
+            <div class="gameBoard"></div>
+            <div class="optionsBoard">
+                <div class="options">
+                    <button type="button" class="toggleResetButton">Reset</button>
+                    <button type="button" title="sound" class="toggleGameSound"><ion-icon name="volume-high"></ion-icon></button>
+                </div>
+                <p class="gameTime">Time - 00:00:00</p>
+            </div>
+        </div>
+    </div>
+
+    <audio src="./Assets/Flipcard.mp3" class="flipSound"></audio>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+<!-- <ion-icon name="volume-mute"></ion-icon> -->
